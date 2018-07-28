@@ -14,7 +14,6 @@ tickets_remaining = 100
 def calculate_price(quantity):
 	return quantity * TICKET_PRICE
 
-
 while tickets_remaining >= 1:
 	print("There are {} tickets remaining.".format(tickets_remaining))
 
